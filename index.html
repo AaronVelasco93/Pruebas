@@ -1,26 +1,34 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Drag-and-drop cards</title>
+<!doctype html>
+<meta charset='utf-8'>
+<link href='dist/dragula.css' rel='stylesheet' type='text/css' />
+<link href='example/example.css' rel='stylesheet' type='text/css' />
+
+<div class='examples'>
+
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=githubcombevacqua" id="_carbonads_js"></script>
+ 
+  <div class='parent'>
+    
+    <div class='wrapper'>
+      
+       <div id='left-defaults' class='container'>
+        <div>You can move these elements between these two containers</div>
+        <div>Moving them anywhere else isn't quite possible</div>
+        <div>Anything can be moved around. That includes images, , or any other nested elements.
+        <div class='image-thing'><img src='resources/icon.svg' onerror='this.src="resources/icon.png"' alt='dragula'/></div><sub>(You can still click on links, as usual!)</sub>
+        </div>
+      </div>
+      
+       <div id='right-defaults' class='container'>
+        <div>There's also the possibility of moving elements around in the same container, changing their position</div>
+        <div>This is the default use case. You only need to specify the containers you want to use</div>
+        <div>More interactive use cases lie ahead</div>
+        <div>Moving  elements works just fine. You can still focus them, too. </div>
+        <div>Make sure to check out the documentation on GitHub!</a></div>
+      </div>
+      
+    </div>
+     </div>
   
-  
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.6.6/dragula.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-  <div id="container"></div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.6.2/dragula.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/highcharts/4.2.1/highcharts.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-    <script src="js/index.js"></script>
-
-</body>
-</html>
+<script src='dist/dragula.js'></script>
+<script src='example/example.min.js'></script>
