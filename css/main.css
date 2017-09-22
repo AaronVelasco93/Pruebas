@@ -1,0 +1,39 @@
+body{
+/*	background-image: url('../media/img/fondo.jpg');*/
+	min-width: 10%;
+	overflow-x: hidden;
+}
+#titulo{
+	margin-top: -10%;
+	margin-left: 3%;
+}
+#margen{
+	padding: 5%;
+	padding-left: 17%;
+}
+.boton{
+	border-radius: 10px;
+}
+.boton:hover{
+	background-color: white !important;
+	color: #8e24aa !important;
+}
+.colorfondo{
+    background: #49c0f0;
+background: -moz-linear-gradient(-45deg, #49c0f0 31%, #49c0f0 42%, #2cafe3 54%, #2cafe3 54%, #2cafe3 71%);
+background: -webkit-linear-gradient(-45deg, #49c0f0 31%,#49c0f0 42%,#2cafe3 54%,#2cafe3 54%,#2cafe3 71%);
+background: linear-gradient(135deg, #49c0f0 31%,#49c0f0 42%,#2cafe3 54%,#2cafe3 54%,#2cafe3 71%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49c0f0', endColorstr='#2cafe3',GradientType=1 );
+}
+
+.materialUpDown {
+  display: block;
+/*  cursor: -webkit-zoom-in;*/
+/*  cursor: zoom-in;*/
+  position: relative;
+  -webkit-transition: opacity .4s;
+  transition: opacity .4s;
+  -webkit-backface-visibility: hidden;
+/*    border-radius: 50%;*/
+    
+}
