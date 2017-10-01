@@ -1,7 +1,9 @@
 @font-face {
     font-family: le;
-    src: url(../fonts/l.ttf);
-/*    src: url("fonts/l.ttf"); */
+/*    src: url(../fonts/l.ttf);*/
+    src: url(../fonts/Quicksand-Regular.otf);
+    
+
     
 }
 body {
@@ -13,6 +15,21 @@ body {
   background-position:center center;
   background-size: 100% 2000px;
   background-repeat: no-repeat; 
+}
+
+.logo-globe{
+margin:200px auto;
+width:190px;
+height:190px;
+/*
+border:1px solid transparent;
+-webkit-border-radius: 300px;
+-moz-border-radius: 300px;
+border-radius: 300px;
+overflow: hidden;
+*/
+
+    
 }
 .globe-container
 {
@@ -66,7 +83,7 @@ h1{
   right: 0px;
   bottom: 0px;
   height: 80px;
-  margin: 400px auto;
+  margin: 420px auto;
   -webkit-animation: bounce .9s ease infinite alternate;
    font-family: le;
   font-size: 50px;
