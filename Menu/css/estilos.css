@@ -1,21 +1,35 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
-*:focus {
-  outline: none;
+
+@font-face {
+    font-family: le;
+    src: url(../Menu/fonts/Quicksand-Regular.otf);
+
 }
 
+
 body{
+/*Primary*/
+  /*background: #bce0ee;
+  background: -moz-linear-gradient(-45deg, #bce0ee 13%, #bce0ee 23%, #bce0ee 27%, #bce0ee 27%, #bce0ee 34%, #bce0ee 44%, #bce0ee 51%, #b3dced 55%, #b3dced 55%, #00bcd4 95%);
+  background: -webkit-linear-gradient(-45deg, #bce0ee 13%,#bce0ee 23%,#bce0ee 27%,#bce0ee 27%,#bce0ee 34%,#bce0ee 44%,#bce0ee 51%,#b3dced 55%,#b3dced 55%,#00bcd4 95%);
+  background: linear-gradient(135deg, #bce0ee 13%,#bce0ee 23%,#bce0ee 27%,#bce0ee 27%,#bce0ee 34%,#bce0ee 44%,#bce0ee 51%,#b3dced 55%,#b3dced 55%,#00bcd4 95%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bce0ee', endColorstr='#00bcd4',GradientType=1 );*/
 
 
+  /*Primary darck*/
+  background: #bce0ee;
+  background: -moz-linear-gradient(-45deg, #bce0ee 13%, #bce0ee 23%, #bce0ee 27%, #bce0ee 27%, #bce0ee 34%, #bce0ee 44%, #bce0ee 51%, #b3dced 55%, #b3dced 55%, #0288d1 95%);
+  background: -webkit-linear-gradient(-45deg, #bce0ee 13%,#bce0ee 23%,#bce0ee 27%,#bce0ee 27%,#bce0ee 34%,#bce0ee 44%,#bce0ee 51%,#b3dced 55%,#b3dced 55%,#0288d1 95%);
+  background: linear-gradient(135deg, #bce0ee 13%,#bce0ee 23%,#bce0ee 27%,#bce0ee 27%,#bce0ee 34%,#bce0ee 44%,#bce0ee 51%,#b3dced 55%,#b3dced 55%,#0288d1 95%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bce0ee', endColorstr='#0288d1',GradientType=1 );
 
-    background: rgb(251,131,250);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(251,131,250,1) 0%, rgba(233,60,236,1) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%);
-    background: radial-gradient(ellipse at center, rgba(251,131,250,1) 0%,rgba(233,60,236,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', endColorstr='#e93cec',GradientType=1 );
     background-position:center center;
     background-size: 100% 2000px;
     background-repeat: no-repeat;
 
+}
+
+.blue_nav {
+  background-color: #0288d1 !important;
 }
 
 #logo-fondo{
@@ -85,7 +99,7 @@ z-index: 3;
   margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 28px;
-  font-family: 'Quicksand', bold;
+  font-family: 'Quicksand_Bold';
 }
 
 input[type="text"],
@@ -170,7 +184,7 @@ input[type="submit"]:active {
   display: block;
   margin-bottom: 40px;
   font-size: 28px;
-  font-family: 'Quicksand', bold;
+  font-family: 'Quicksand_Bold';
   color: #FFF;
   text-align: center;
 }
@@ -182,7 +196,7 @@ button.s-signin {
   border: none;
   border-radius: 2px;
   color: #FFF;
-  font-family: 'Quicksand', sans-seriff;
+  font-family: 'Quicksand_Regular', sans-seriff;
   font-weight: 500;
   transition: 0.2s ease;
   cursor: pointer;
