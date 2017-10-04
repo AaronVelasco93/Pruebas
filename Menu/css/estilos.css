@@ -51,27 +51,27 @@ top: 50px;
 #acd{
 
   position: relative;
-  margin: 40px 0 0 45%;
+  margin: 60px 0 0 45%;
   z-index: 1;
 }
 
 #acdlo{
 
   position: relative;
-  margin: 10px 0 0 45%;
+  margin: 30px 0 0 42%;
   z-index: 1;
 }
 
 #acd2{
 
   position: relative;
-  margin: -200px 0 0 28%;
+  margin: -200px 0 0 24%;
   z-index: 1;
 }
 #acd3{
 
   position: relative;
-  margin: -200px 0 0 63%;
+  margin: -200px 0 0 66%;
   z-index: 1;
 }
 #lo {
