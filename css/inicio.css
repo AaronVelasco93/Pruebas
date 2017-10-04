@@ -89,7 +89,7 @@ background-position:-60px 0px;
 h1{
   cursor: default;
   position: absolute;
-  top: 20px;
+  top: 50px;
   left: 0px;
   right: 0px;
   bottom: 0px;
@@ -110,12 +110,13 @@ h1{
   0 10px 10px rgba(0, 0, 0, 0.6);
 }
 .letra {
+  19
   cursor: default;
   position: absolute;
   top: 20px;
   left: 0px;
   right: 0px;
-  bottom: 0px;
+  bottom: 10px;
   height: 100px;
   margin: 5px auto;
     font-family:le;
