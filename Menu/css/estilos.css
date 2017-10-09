@@ -230,6 +230,13 @@ button.s-signin.google {
 
 }
 .panel2 {
- margin-top: -10px;
+ margin-top: -5px;
+
+}
+
+.navusu{
+  padding: 0;
+  border: 0;
+  background:#e3f2fd ;
 
 }
