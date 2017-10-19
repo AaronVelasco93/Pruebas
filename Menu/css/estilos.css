@@ -7,12 +7,6 @@
 
 
 body{
-/*Primary*/
-  /*background: #bce0ee;
-  background: -moz-linear-gradient(-45deg, #bce0ee 13%, #bce0ee 23%, #bce0ee 27%, #bce0ee 27%, #bce0ee 34%, #bce0ee 44%, #bce0ee 51%, #b3dced 55%, #b3dced 55%, #00bcd4 95%);
-  background: -webkit-linear-gradient(-45deg, #bce0ee 13%,#bce0ee 23%,#bce0ee 27%,#bce0ee 27%,#bce0ee 34%,#bce0ee 44%,#bce0ee 51%,#b3dced 55%,#b3dced 55%,#00bcd4 95%);
-  background: linear-gradient(135deg, #bce0ee 13%,#bce0ee 23%,#bce0ee 27%,#bce0ee 27%,#bce0ee 34%,#bce0ee 44%,#bce0ee 51%,#b3dced 55%,#b3dced 55%,#00bcd4 95%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bce0ee', endColorstr='#00bcd4',GradientType=1 );*/
 
 
   /*Primary darck*/
@@ -30,15 +24,11 @@ body{
 
 .fondomenu{
   background-image: url('../Media/menu.png');
-  /*background-position:center center;*/
-  /*background-size: 100% 1000px;*/
+
   background-size: 290% 1000px;
   background-position: center;
   background-position: bottom;
   background-repeat: no-repeat;
-
-
-
 
 }
 
@@ -96,7 +86,8 @@ body{
   background: #FFF;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-z-index: 99999999999999999999999999999999999999999999999999999999;
+z-index: 99999999999;
+border:1px solid;
 }
 
 .le {
@@ -109,11 +100,16 @@ z-index: 99999999999999999999999999999999999999999999999999999999;
   height: 400px;
 }
 
+.registro{
+  padding-left: 0px;
+
+}
 .h {
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 25px;
   font-family: 'Quicksand_Bold';
+  text-align: center;
 }
 
 input[type="text"],
@@ -133,6 +129,7 @@ input[type="password"] {
 }
 
 input[type="text"]:focus,
+
 input[type="password"]:focus {
   border-bottom: 2px solid #16a085;
   color: #16a085;
@@ -185,13 +182,15 @@ input[type="submit"]:active {
   top: 0;
   right: 0;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 35px;
+  /*padding-top: 5px;*/
   width: 300px;
   height: 400px;
-  background: url('https://goo.gl/YbktSj');
+  background:#FFF ;
   background-size: cover;
   background-position: center;
   border-radius: 0 2px 2px 0;
+  border:1px solid;
 }
 
 .ri .loginwith {

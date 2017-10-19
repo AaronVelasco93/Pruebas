@@ -25,7 +25,7 @@
 
 	      </ul>
 
-				
+
 
 	      <ul id="slide-out" class="side-nav fondomenu"  >
 
@@ -55,26 +55,29 @@
 
 
 
-<div id="lo" class="ver ">
-	<div class="le ">
-		<h1 class="h">Iniciar Sesión</h1>
+	<div id="lo" class="ver ">
+		<div class="le ">
+			<h1 class="h">Iniciar Sesión</h1>
 
-		<input type="text" name="Usuario o Email" placeholder="Username" />
-		<input type="password" name="Contrasena" placeholder="Password" />
+			<input type="text" name="Usuario o Email" placeholder="Username" />
+			<input type="password" name="Contrasena" placeholder="Password" />
+			<input type="submit" name="Entrar" value="Entrar" />
 
-		<input type="submit" name="Entrar" value="Entrar" />
+		</div>
+
+
+		<div class="ri">
+			<h1 class="h">Registro</h1>
+			
+			<input type="email" name="Email" placeholder="Correo" />
+			<input type="password" name="Contrasena" placeholder="Contraseña" />
+			<input type="password" name="Contrasena" placeholder="Confirmar contraseña" />
+			<input type="submit" name="Entrar" value="Registrarse" />
+
+
+		</div>
+		<div class="or">OR</div>
 	</div>
-
-
-	<div class="ri">
-		<span class="loginwith">Iniciar Sesion<br /></span>
-
-		<button class="s-signin facebook">Entrar usando Facebook</button>
-		<button class="s-signin twitter">Entrar usando  Twitter</button>
-		<button class="s-signin google">Entrar usando Google+</button>
-	</div>
-	<div class="or">OR</div>
-</div>
 
 
 <section  >
@@ -132,21 +135,23 @@
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript">
-	   $('.ver').hide();
-        $('#mos').on('click',function(e){
-            $('.ver').slideToggle('slow');
-            e.preventDefault();
-            e.stopPropagation();
-        });
-        $('#si').on('click',function(e){
-            $('.ver').hide();
-        });
-           $("html").click(function(){
-         $(".ver").hide();
-    });
+	$('.ver').hide();
+			$('#mos').on('click',function(e){
+					$('.ver').slideToggle('slow');
+					e.preventDefault();
+					e.stopPropagation();
+			});
+			$('#si').on('click',function(e){
+					$('.ver').hide();
+			});
+			$('.ver').on('click',function(e){
+					e.stopPropagation();
+			});
+				 $("html").click(function(){
+			 $(".ver").hide();
+	});
 
-
-	</script>
+</script>
 	<script type="text/javascript" src="js/materialize.js"></script>
 
 	<script type="text/javascript">$(".brand-logo").sideNav();</script>
