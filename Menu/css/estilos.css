@@ -1,8 +1,7 @@
 
 @font-face {
     font-family: le;
-    src: url(../Menu/fonts/Quicksand-Regular.otf);
-
+    src: url(../fonts/Quicksand-Regular.otf);
 }
 
 
@@ -16,19 +15,21 @@ body{
   background: linear-gradient(135deg, #bce0ee 13%,#bce0ee 23%,#bce0ee 27%,#bce0ee 27%,#bce0ee 34%,#bce0ee 44%,#bce0ee 51%,#b3dced 55%,#b3dced 55%,#0288d1 95%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bce0ee', endColorstr='#0288d1',GradientType=1 );
 
-    background-position:center center;
-    background-size: 100% 2000px;
+  background-position:center center;
+  background-size: 100% 2000px;
 
 
 }
 
 .fondomenu{
   background-image: url('../Media/menu.png');
-
   background-size: 290% 1000px;
   background-position: center;
   background-position: bottom;
   background-repeat: no-repeat;
+  font-family: le;
+
+
 
 }
 
@@ -42,8 +43,6 @@ body{
   height:190px;
   left: 100px;
   top: 50px;
-
-  /*background-image: url("updown transparente.png"); */
 
 }
 
@@ -86,8 +85,39 @@ body{
   background: #FFF;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-z-index: 99999999999;
-border:1px solid;
+  z-index: 99999999999;
+  text-align: center;
+}
+#lo1 {
+  position:absolute;;
+  margin: -10px 0 0 28%;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  z-index: 99999999999;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+
+  border-left: 1px solid;
+  text-align: center;
+}
+.ri {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  background:#FFF ;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+  border:1px solid;
+  text-align: center;
+
 }
 
 .le {
@@ -98,6 +128,7 @@ border:1px solid;
   padding: 40px;
   width: 300px;
   height: 400px;
+  border: 1px solid;
 }
 
 .registro{
@@ -108,7 +139,7 @@ border:1px solid;
   margin: 0 0 15px 0;
   font-weight: 300;
   font-size: 25px;
-  font-family: 'Quicksand_Bold';
+  font-family: le;
   text-align: center;
 }
 
@@ -122,7 +153,7 @@ input[type="password"] {
   height: 32px;
   border: none;
   border-bottom: 1px solid #AAA;
-  font-family: 'Quicksand', sans-seriff;
+  font-family: le;
   font-weight: 400;
   font-size: 15px;
   transition: 0.2s ease;
@@ -137,14 +168,14 @@ input[type="password"]:focus {
 }
 
 input[type="submit"] {
-  margin-top: 28px;
+  margin-top: 15px;
   width: 120px;
   height: 32px;
-  background: #16a085;
+  background:#00bcd4 ;
   border: none;
   border-radius: 2px;
   color: #FFF;
-  font-family: 'Quicksand', sans-seriff;
+  font-family: le;
   font-weight: 500;
   text-transform: uppercase;
   transition: 0.1s ease;
@@ -166,7 +197,7 @@ input[type="submit"]:active {
 
 .or {
   position: absolute;
-  top: 180px;
+  top: 110px;
   left: 280px;
   width: 40px;
   height: 40px;
@@ -177,27 +208,14 @@ input[type="submit"]:active {
   text-align: center;
 }
 
-.ri {
-  position: absolute;
-  top: 0;
-  right: 0;
-  box-sizing: border-box;
-  padding: 35px;
-  /*padding-top: 5px;*/
-  width: 300px;
-  height: 400px;
-  background:#FFF ;
-  background-size: cover;
-  background-position: center;
-  border-radius: 0 2px 2px 0;
-  border:1px solid;
-}
+
+
 
 .ri .loginwith {
   display: block;
   margin-bottom: 40px;
   font-size: 28px;
-  font-family: 'Quicksand_Bold';
+  font-family: le;
   color: #FFF;
   text-align: center;
 }
@@ -209,7 +227,7 @@ button.s-signin {
   border: none;
   border-radius: 2px;
   color: #FFF;
-  font-family: 'Quicksand_Regular', sans-seriff;
+  font-family: le;
   font-weight: 500;
   transition: 0.2s ease;
   cursor: pointer;
@@ -255,4 +273,62 @@ button.s-signin.google {
   border: 0;
   background:#e3f2fd ;
 
+}
+#navs {
+  position: relative;
+  margin: 30px 0 0 45%;
+  width: 200px;
+  height: 200px;
+  line-height: 40px;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  z-index: 9999;
+}
+
+#navs>li{
+  position: absolute;
+  margin: 30px 0 0 25%;
+ left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+  background-color: green;
+}
+
+#navs>li {
+  transition: all .6s;
+  -webkit-transition: all .6s;
+  -moz-transition: .6s;
+}
+
+#navs:after {
+  content: attr(data-close);
+  z-index: 1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: green;
+}
+
+#navs.active:after { content: attr(data-open); }
+
+#navs a {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8em;
 }
