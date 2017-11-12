@@ -19,7 +19,6 @@ class Autocuidado extends CI_Controller{
     $this->load->view('templates/header');
     $this->load->view('autocuidado/aseo.php');
     $this->load->view('templates/footer');
-
   }
 
   public function alimentacion(){
@@ -36,7 +35,8 @@ class Autocuidado extends CI_Controller{
     $this->load->view('autocuidado/vestido.php');
     $this->load->view('templates/footer');
   }
-  public function prevencion(){
+
+public function prevencion(){
     $this->load->view('pages/menuarriva.php');
     $this->load->view('templates/header');
     $this->load->view('autocuidado/prevencion.php');
